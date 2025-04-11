@@ -1,0 +1,123 @@
+MENU!!!
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>ForthFusion</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: monospace;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 30px;
+    }
+    .logo {
+      height: 80px;
+    }
+    .search {
+      background: #eee;
+      padding: 10px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+    }
+    .search input {
+      border: none;
+      background: transparent;
+      outline: none;
+      font-family: monospace;
+    }
+    .search img {
+      width: 20px;
+      margin-left: 10px;
+    }
+    nav {
+      background: #ddd;
+      display: flex;
+      justify-content: space-around;
+      padding: 15px 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: black;
+      font-size: 18px;
+    }
+    .hero img {
+      width: 100%;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="logo" src="icone.PNG" alt="Logo ForthFusion" />
+    <div class="search">
+      <input type="text" placeholder="O que você está buscando?" />
+      <img src="https://cdn-icons-png.flaticon.com/512/622/622669.png" />
+    </div>
+  </header>
+
+  <nav>
+    <a href="whey.html">WHEY</a>
+    <a href="creatina.html">CREATINA</a>
+    <a href="pretreino.html">PRÉ-TREINO</a>
+    <a href="multivitaminico.html">MULTIVITAMINICO</a>
+  </nav>
+
+  <div class="hero">
+    <img src="banner.avif" alt="Banner principal" />
+  </div>
+</body>
+</html>
+
+WHEY!!!
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Whey Concentrado</title>
+</head>
+<body>
+  <img src="whey.PNG" style="width: 100%;" alt="Whey Concentrado" />
+</body>
+</html>
+
+CREATINA!!!
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Creatina</title>
+</head>
+<body>
+  <img src="creatina.PNG" style="width: 100%;" alt="Creatina Monohidratada" />
+</body>
+</html>
+
+PRE-TREINO!!!
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pré-Treino</title>
+</head>
+<body>
+  <img src="pretreino.PNG" style="width: 100%;" alt="Pré-Treino Cafeína" />
+</body>
+</html>
+
+MULTIVITAMINICO!!!
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Multivitamínico</title>
+</head>
+<body>
+  <img src="multivitaminico.PNG" style="width: 100%;" alt="Multivitamínico" />
+</body>
+</html>
